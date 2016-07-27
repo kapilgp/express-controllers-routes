@@ -17,6 +17,12 @@
     "roles-based-routing"
   ],
   "author": "Kapil Gupta <kapil.gp@gmail.com>",
+  "contributors": [
+    {
+      "name": "",
+      "email": ""
+    },
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kapilgp/express-controllers-routes/issues"

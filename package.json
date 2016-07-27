@@ -1,0 +1,25 @@
+{
+  "name": "express-controllers-routes",
+  "version": "1.0.0",
+  "description": "Setup Routing based on prefixes for express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapilgp/express-controllers-routes.git"
+  },
+  "keywords": [
+    "express",
+    "routes",
+    "prefix-routing",
+    "roles-based-routing"
+  ],
+  "author": "Kapil Gupta <kapil.gp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kapilgp/express-controllers-routes/issues"
+  },
+  "homepage": "https://github.com/kapilgp/express-controllers-routes#readme"
+}

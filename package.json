@@ -14,7 +14,14 @@
     "express",
     "routes",
     "prefix-routing",
-    "roles-based-routing"
+    "roles-based-routing",
+    "framework",
+    "web",
+    "rest",
+    "restful",
+    "router",
+    "app",
+    "api"
   ],
   "author": "Kapil Gupta <kapil.gp@gmail.com>",
   "contributors": [

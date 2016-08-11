@@ -7,7 +7,9 @@ So if we have to set multiple routing according to prefixes and want to setup co
 Like if we want to sepreate controllers for front site, admin panel and apis: 
 
 For admin: /admin/users
+
 For general Users: /users
+
 For api: /api/users
 
 ### Installation

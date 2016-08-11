@@ -30,8 +30,8 @@ var router = express.Router();
 app.use(router);
 
 expCtrl.bind(router, __dirname + '/controllers/admin', '/admin'); // For Admin Routing
-expCtrl.bind(router, __dirname + '/controllers/site');			  // For Front Site	
-expCtrl.bind(router, __dirname + '/controllers/api', '/api');	  // For API routing
+expCtrl.bind(router, __dirname + '/controllers/site');            // For Front Site	
+expCtrl.bind(router, __dirname + '/controllers/api', '/api');     // For API routing
 
 ```
 
@@ -83,7 +83,7 @@ module.exports = {
 ```
 
 
-### Example: https://github.com/kapilgp/express-controllers-routes/tree/master/example
+### Complete Example: https://github.com/kapilgp/express-controllers-routes/tree/master/example
 
 
 ### Feedback

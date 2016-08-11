@@ -33,3 +33,4 @@ expCtrl.bind(router, __dirname + '/controllers/api', '/api');	  // For API routi
 
 ```
 
+### [Basic Example] https://github.com/kapilgp/express-controllers-routes/tree/master/example

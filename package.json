@@ -1,7 +1,7 @@
 {
   "name": "express-controllers-routes",
   "version": "1.0.0",
-  "description": "Setup Routing based on prefixes for express.",
+  "description": "Setup Express routing based on prefixes like (/admin, /api, /manager, etc..).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

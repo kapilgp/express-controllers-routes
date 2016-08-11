@@ -33,4 +33,61 @@ expCtrl.bind(router, __dirname + '/controllers/api', '/api');	  // For API routi
 
 ```
 
-### [Basic Example] https://github.com/kapilgp/express-controllers-routes/tree/master/example
+### Basic Example:
+
+So we create a tests controller for admin
+Create a file controllers/admin/testsController.js
+
+```
+/**
+ * Test Controller
+ */
+
+//Controller Exports
+module.exports = {
+	// Name of the controller by which all actions of it binds
+	name: 'tests', 
+
+	// Get Actions
+	get:{
+		//Action Index
+		// Access via /admin/tests
+		index : function(req, res) {		
+			res.send("Tests Admin INDEX GET ACTION");
+	    },
+	    //Action List : /admin/tests/list
+		list : function(req, res) {			
+			res.send("Tests Admin LIST GET ACTION");
+	    },
+
+	    // Action for particular list: /admin/list:23
+	    'list:id': function(req, res) {
+	    	res.send('Tests admin list: '+ req.params.id + 'Get Action');
+	    },
+	    // Action /admin/list/abc
+	    'list_abc': function(req, res) {
+	    	res.send("Tests admin list/abc Get Action");
+	    }
+	},
+
+	//Post Actions
+	post: {
+		// POST Action for /admin/add
+		add : function(req, res) {			
+			res.send("Tests Admin ADD POST ACTION");
+	    }		
+	} 
+}
+```
+
+
+### Example: https://github.com/kapilgp/express-controllers-routes/tree/master/example
+
+
+### Feedback
+
+Pull requests, feature ideas and bug reports are welcome
+
+### License
+
+MIT

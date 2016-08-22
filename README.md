@@ -30,7 +30,7 @@ var router = express.Router();
 app.use(router);
 
 expCtrl.bind(router, __dirname + '/controllers/admin', '/admin'); // For Admin Routing
-expCtrl.bind(router, __dirname + '/controllers/site');            // For Front Site	
+expCtrl.bind(router, __dirname + '/controllers/site');            // For Front Site 
 expCtrl.bind(router, __dirname + '/controllers/api', '/api');     // For API routing
 
 ```
@@ -47,38 +47,38 @@ Create a file controllers/admin/testsController.js
 
 //Controller Exports
 module.exports = {
-	// Name of the controller by which all actions of it binds
-	name: 'tests', 
+    // Name of the controller by which all actions of it binds
+    name: 'tests', 
 
-	// Get Actions
-	get:{
-		//Action Index
-		// Access via /admin/tests
-		index : function(req, res) {		
-			res.send("Tests Admin INDEX GET ACTION");
-	    },
-	    //Action List : /admin/tests/list
-		list : function(req, res) {			
-			res.send("Tests Admin LIST GET ACTION");
-	    },
+    // Get Actions
+    get:{
+        //Action Index
+        // Access via /admin/tests
+        index : function(req, res) {        
+            res.send("Tests Admin INDEX GET ACTION");
+        },
+        //Action List : /admin/tests/list
+        list : function(req, res) {         
+            res.send("Tests Admin LIST GET ACTION");
+        },
 
-	    // Action for particular list: /admin/list:23
-	    'list:id': function(req, res) {
-	    	res.send('Tests admin list: '+ req.params.id + 'Get Action');
-	    },
-	    // Action /admin/list/abc
-	    'list_abc': function(req, res) {
-	    	res.send("Tests admin list/abc Get Action");
-	    }
-	},
+        // Action for particular list: /admin/list:23
+        'list:id': function(req, res) {
+            res.send('Tests admin list: '+ req.params.id + 'Get Action');
+        },
+        // Action /admin/list/abc
+        'list_abc': function(req, res) {
+            res.send("Tests admin list/abc Get Action");
+        }
+    },
 
-	//Post Actions
-	post: {
-		// POST Action for /admin/add
-		add : function(req, res) {			
-			res.send("Tests Admin ADD POST ACTION");
-	    }		
-	} 
+    //Post Actions
+    post: {
+        // POST Action for /admin/add
+        add : function(req, res) {          
+            res.send("Tests Admin ADD POST ACTION");
+        }       
+    } 
 }
 ```
 

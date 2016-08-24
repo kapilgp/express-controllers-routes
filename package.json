@@ -1,6 +1,6 @@
 {
   "name": "express-controllers-routes",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Setup Express routing based on prefixes like (/admin, /api, /manager, etc..).",
   "main": "index.js",
   "scripts": {
